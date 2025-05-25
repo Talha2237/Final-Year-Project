@@ -51,7 +51,7 @@ def load_model():
     # Initialize and load weights
     model = BERT_Arch(bert)
     model.load_state_dict(torch.load(
-        r'C:\Users\User\Desktop\Final Year Project\c2_new_model_weights.pt',
+        r'c1_fakenews_weights.pt',
         map_location=torch.device('cpu')  # Ensures CPU compatibility
     ))
     model.eval()
