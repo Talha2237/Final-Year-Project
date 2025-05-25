@@ -163,7 +163,7 @@ if st.button("🔎 Analyze Text", use_container_width=True):
             
             with col1:
                 st.markdown('<div class="model-card">', unsafe_allow_html=True)
-                st.subheader("🧠 Custom BERT Model")
+                st.subheader("🧠 Finetuned BERT Model")
                 st.markdown(f'<div class="metric-box">⏱️ Inference Time: {original_time:.2f}s</div>', unsafe_allow_html=True)
                 if real_prob1 > fake_prob1:
                     st.success(f"✅ Real News ({real_prob1:.1f}% confidence)")
@@ -173,7 +173,7 @@ if st.button("🔎 Analyze Text", use_container_width=True):
             
             with col2:
                 st.markdown('<div class="model-card">', unsafe_allow_html=True)
-                st.subheader("🚀 Pretrained Pipeline")
+                st.subheader("🚀 Pretrained Bert Model")
                 st.markdown(f'<div class="metric-box">⏱️ Inference Time: {pipe_time:.2f}s</div>', unsafe_allow_html=True)
                 if label == "REAL":
                     st.success(f"✅ {label} News ({confidence:.1f}% confidence)")
