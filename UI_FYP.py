@@ -3,7 +3,6 @@ import os
 os.environ["STREAMLIT_SERVER_ENABLE_FILE_WATCHER"] = "false"
 
 # 2. PyTorch imports and workaround
-pip install torch
 import torch
 torch.__streamlit__ = False  # Block Streamlit's class inspection
 
