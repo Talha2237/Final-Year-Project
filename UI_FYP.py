@@ -112,8 +112,8 @@ st.markdown("---")
 # Example selector
 examples = [
     "Select an example...",
-    "COVID vaccines contain microchips to track people",  # Fake
-    "NASA announces new Mars rover mission",              # Real
+    "Atif Aslam is a world famous Pakistani singer",  # Fake
+    "America got it's freedom from British on 4th of July",              # Real
     "World leaders sign global climate agreement",        # Real
     "5G networks spread coronavirus"                      # Fake
 ]
