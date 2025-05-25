@@ -79,7 +79,7 @@ st.markdown("---")
 # Example selector
 examples = [
     "Select an example...",
-    "COVID vaccines contain microchips to track people",  # Fake
+    "Atif Aslam is a world famous Pakistani singer",  # Fake
     "NASA announces new Mars rover mission",              # Real
     "World leaders sign global climate agreement",        # Real
     "5G networks spread coronavirus"                      # Fake
