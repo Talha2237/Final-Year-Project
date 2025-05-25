@@ -66,12 +66,7 @@ model, tokenizer = load_model()
 # --------------------------
 # Custom styling
 st.markdown("""
-<style>
-    .reportview-container { background: #f0f2f6 }
-    .stTextArea textarea { font-size: 16px !important; padding: 10px !important; }
-    .stButton>button { background: #4CAF50; color: white; font-weight: bold; }
-    .stAlert { border-radius: 10px; }
-</style>
+
 """, unsafe_allow_html=True)
 
 # Header
